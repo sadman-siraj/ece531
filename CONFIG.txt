@@ -1,0 +1,11 @@
+*** File path to read temperatures of thermocouple ***
+/tmp/temp
+
+*** File path to write actions of thermostate ***
+/tmp/status
+
+*** URL to make HTTP GET Request and obtain thermostat programs ***
+http://52.9.99.142/set_points.php
+
+*** URL to make HTTP POST Request and write thermostat actions ***
+http://52.9.99.142/set_actions.php
